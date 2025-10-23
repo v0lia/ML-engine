@@ -1,20 +1,19 @@
 # 🧠 fashion-mnist-classifier
-Learning PyTorch through Fashin-MNIST
+Learning PyTorch through Fashion-MNIST
 
-(!) This project has only been started. README itself is only a template - yet.
+*NOT FINISHED YET*
 
 ## 🧩 Overview
 **TBD**  
-*Example:
+(Example:)
 This project trains a simple convolutional neural network on the FashionMNIST dataset to classify clothing items.  
-The focus was on understanding model architecture, optimizer behavior, and basic visualization of results.*
+The focus was on understanding model architecture, optimizer behavior, and basic visualization of results.
 
 ## ⚙️ Tech Stack
-**TBD**
 - **Language:** Python  
 - **Framework:** PyTorch  
 - **Dataset:** FashionMNIST  
-- **Tools:** matplotlib, torchvision
+- **Tools:** torch, torchvision, matplotlib, yaml
 
 ## 📈 Results
 **TBD**  
@@ -29,17 +28,20 @@ Example predictions visualized*
 
 ## 🚀 How to Run
 **TBD**  
-*git clone https://github.com/v0lia/fashion-mnist-classifier.git
-cd fashion-mnist-classifier
-pip install -r requirements.txt
-python train.py*
+```bash
+git clone https://github.com/v0lia/fashion-mnist-classifier.git  
+cd fashion-mnist-classifier  
+pip install -r requirements.txt  
+python main.py train CNN  
+python main.py eval CNN
+```
 
 ## 🧭 Key Takeaways
 **TBD**  
-*Implemented a working CNN from scratch using PyTorch.  
-Learned how to structure a small ML project.  
-Practiced visualizing metrics and model performance.*
+- Implemented a working CNN from scratch using PyTorch.
+- Practiced visualizing metrics and model performance.
+- Learned how to structure a production-grade code for ML project.
 
 ## 🔗 Next Step
-**TBD x2**  
+**TBD ^2**  
 *Next project: ...*
