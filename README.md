@@ -138,21 +138,26 @@ During this project, I gained hands-on experience with:
 </p>
 
 <p align="center">
-  <img src=".gitimages/data_embedding.png" alt="Data embedding" width="400"/><br>
+  <img src=".gitimages/data_embedding.PNG" alt="Data embedding" width="400"/><br>
   <em>Data embedding</em>
 </p>
 
 <p align="center">
-  <img src=".gitimages/epoch_loss_curves.png" alt="Epoch loss curves" width="400"/><br>
+  <img src=".gitimages/epoch_loss_curves.PNG" alt="Epoch loss curves" width="400"/><br>
   <em>Data Epoch loss curves</em>
 </p>
 
 <p align="center">
-  <img src=".gitimages/epoch_accuracy_curves.png" alt="Epoch accuracy curves" width="400"/><br>
+  <img src=".gitimages/epoch_accuracy_curves.PNG" alt="Epoch accuracy curves" width="400"/><br>
   <em>Epoch accuracy curves</em>
 </p>
 
 <p align="center">
-  <img src=".gitimages/pr-curves.png" alt="Precision-Recall curves" width="400"/><br>
+  <img src=".gitimages/pr-curves.PNG" alt="Precision-Recall curves" width="400"/><br>
   <em>Precision-Recall curves</em>
+</p>
+
+<p align="center">
+  <img src=".gitimages/model_graph.PNG" alt="ResNet18 graph" width="50"/><br>
+  <em>ResNet18 graph</em>
 </p>
