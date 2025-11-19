@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
   
-# 🧠 ML-engine
+# 🧠 ML-Engine
 Modular deep learning engine with logging, TensorBoard visualization, checkpointing and pluggable CNN architectures.
 
 ## 🧩 Overview
@@ -37,7 +37,7 @@ Current reference pipeline: training convolutional neural networks on the Fashio
 
 ### Project Structure
 ```
-ML-engine/
+ML-Engine/
 ├── checkpoints/
 ├── config/
 ├── datasets/
@@ -54,8 +54,8 @@ ML-engine/
 
 ### Install  
 ```bash
-git clone https://github.com/v0lia/ML-engine.git  
-cd ML-engine  
+git clone https://github.com/v0lia/ML-Engine.git  
+cd ML-Engine  
 pip install -r requirements.txt
 ```
 
@@ -102,7 +102,7 @@ python main.py train --model LeNet --config config/my_config.yaml
 
 ### Visualizing Results
 ```bash
-cd ML-engine
+cd ML-Engine
 ```
 - Visualizing all final checkpoints:
 ```bash
@@ -168,4 +168,4 @@ This project is licensed under the MIT License – see the [LICENSE](./LICENSE) 
 
 
 ## Citation
-Vitalii Volia. ML-Engine (2025). GitHub repository: https://github.com/v0lia/ML-engine
+Vitalii Volia. ML-Engine (2025). GitHub repository: https://github.com/v0lia/ML-Engine
