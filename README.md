@@ -161,3 +161,11 @@ During this project, I gained hands-on experience with:
   <img src=".gitimages/model_graph.PNG" alt="ResNet18 graph" width="150"/><br>
   <em>ResNet18 graph</em>
 </p>
+
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
+
+
+## Citation
+Vitalii Volia. ML-Engine (2025). GitHub repository: https://github.com/v0lia/ML-engine
