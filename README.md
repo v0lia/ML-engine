@@ -1,10 +1,11 @@
 
 [![Portfolio](https://img.shields.io/badge/portfolio-active-green)](https://github.com/v0lia)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![ML](https://img.shields.io/badge/ML-Deep%20Learning-blueviolet)
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.8.0-EE4C2C?logo=pytorch&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![ML](https://img.shields.io/badge/ML-Deep%20Learning-blueviolet)
+
   
 # 🧠 ML-engine
 Modular deep learning engine with logging, TensorBoard visualization, checkpointing and pluggable CNN architectures.
@@ -129,11 +130,11 @@ Then open http://localhost:6006 in your browser.
 During this project, I gained hands-on experience with:
 - **Designing modular acrhitecture** for deep learning pipelines
 - Implementing and comparing multiple CNN architectures (LeNet, MLP, ResNet18)
-- Managing datasets and preprocessing workflows
+- Managing data sets and preprocessing workflows
 - Logging, checkpointing, and visualizing experiments with TensorBoard
 - Structuring a Python project for scalability and maintainability
 - Applying best practices in code organization, testing, and reproducibility
 
-## 📬 Contacts
+## 📡 Contacts
 - GitHub: [v0lia](https://github.com/v0lia)
 - Email: <vitvolia@gmail.com>

@@ -29,7 +29,7 @@ def main():
     logger.info(f"{mode} {model_name}: initializing...")
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    logger.info(f"Device: {device}")
+    logger.info(f'Device: "{device}"')
 
     config, config_path = Config.get_config(args.config)
     seed.set_seeds(config, device)
@@ -46,7 +46,7 @@ def main():
         optimizer = get_optimizer(model, config) 
         start_epoch = 0
 
-    dataloader = get_dataloader(mode, config)
+    dataloader = get_dataloader(mode, model_name, config)
     
     loss_fn = get_loss_function(config, device)
     

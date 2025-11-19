@@ -26,7 +26,7 @@ def train(dataloader, model, loss_fn, optimizer, config, device, writer, run_dir
 
     try:
         for epoch in range(start_epoch, epochs):
-            logger.info(f"Start epoch {epoch+1}.....................")
+            logger.info(f"Start epoch {epoch+1}/{epochs}..................")
             with timer.Timer(name=f"{epoch+1}", logger=logger):
                 epoch_loss, epoch_acc, global_batch_n = train_one_epoch(dataloader, model, loss_fn, optimizer, device, writer, global_batch_n)
             

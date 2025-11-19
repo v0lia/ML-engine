@@ -9,13 +9,13 @@ from src.utils.defaults import default_checkpoints_path, default_models_path
 
 
 def parse_args(default_config_path):
-    parser = argparse.ArgumentParser(description="Neural network train/eval pipeline")
+    parser = argparse.ArgumentParser(description="Neural network train/eval engine")
     parser.add_argument("mode", choices=["train", "eval", "evaluate"],
                         help="Run mode: train or eval")
     parser.add_argument("-m", "--model", default=None,
                         help='In "train" mode: name of a model from src/models/, e.g. CNN')
     parser.add_argument("-c", "-cp", "--checkpoint", default=None,
-                        help='Name of a checkpoint from checkpoints/')
+                        help='Name of a checkpoint from checkpoints/ or results/<run_name>/checkpoints')
     parser.add_argument("-l", "--auto-latest", action="store_true",
                         help='In "eval" mode: autimatically loads the latest checkpoint')
     
