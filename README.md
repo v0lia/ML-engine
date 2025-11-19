@@ -12,7 +12,7 @@ Modular deep learning engine with logging, TensorBoard visualization, checkpoint
 ## 🧩 Overview
 
 This repository provides a modular engine for building and experimenting with deep learning pipelines.  
-It includes plug-and-play components, including:
+It contains plug-and-play components, including:
 - dataset preparation tools
 - several convolutional neural network architectures (e.g., LeNet, EfficientNet-B0)
 - training loop with customizable loss functions and optimizers
@@ -40,12 +40,15 @@ Current reference pipeline: training convolutional neural networks on the Fashio
 
 ![Precision-Recall curve](.gitimages/pr_curve.png)
 
-## 🚀 How to use
+## 🚀 How to Use
 
 ### Project Structure
 ```
 ML-engine/
-├── main.py
+├── checkpoints/
+├── config/
+├── datasets/
+├── results/
 ├── src/
 │   ├── core/
 │   ├── data/
@@ -53,9 +56,7 @@ ML-engine/
 │   ├── models/
 │   ├── optimizer/
 │   └── utils/
-├── checkpoints/
-├── config/
-└── datasets/
+└── main.py
 ```
 
 ### Install  
@@ -84,11 +85,11 @@ python main.py eval --checkpoint <checkpoint_file_path>
 python main.py eval --auto-latest
 ```
 
-### Models & Checkpoints locations
-- Models from: `src/models/`
-- Checkpoints from:
-    - `checkpoints/`
-    - `results/<run_name>/checkpoints/`
+### Models & Checkpoints Locations
+- Models: `src/models/`
+- Checkpoints
+    - final: `checkpoints/`
+    - intermediate: `results/<run_name>/checkpoints/`
 
 ## ⚙️ Configuration
 The engine is configured through the `config/config.yaml` file.  
@@ -101,10 +102,10 @@ python main.py train --model LeNet --config config/my_config.yaml
 ## 📁 Results
 
 ### Results Structure
-- Tensorboard: **results/<run_name>/tensorboard**
-- Checkpoints (intermediate): **results/<run_name>/checkpoints** 
-- Checkpoints (final): **checkpoints/**
-- Logs: **results/<run_name>/logs**
+- Tensorboard: `results/<run_name>/tensorboard`
+- Checkpoints (intermediate): `results/<run_name>/checkpoints`
+- Checkpoints (final): `checkpoints/`
+- Logs: `results/<run_name>/logs`
 
 ### Visualizing Results
 ```bash
@@ -123,3 +124,16 @@ tensorboard --logdir results
 tensorboard --logdir results/<run_name>/tensorboard
 ```
 Then open http://localhost:6006 in your browser.
+
+## ✨ Lessons Learned
+During this project, I gained hands-on experience with:
+- **Designing modular acrhitecture** for deep learning pipelines
+- Implementing and comparing multiple CNN architectures (LeNet, MLP, ResNet18)
+- Managing datasets and preprocessing workflows
+- Logging, checkpointing, and visualizing experiments with TensorBoard
+- Structuring a Python project for scalability and maintainability
+- Applying best practices in code organization, testing, and reproducibility
+
+## 📬 Contacts
+- GitHub: [v0lia](https://github.com/v0lia)
+- Email: [vitvolia@gmail.com](vitvolia@gmail.com)
