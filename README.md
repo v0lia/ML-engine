@@ -32,14 +32,18 @@ Current reference pipeline: training convolutional neural networks on the Fashio
 - **Tools:** torch, torchvision, TensorBoard
 
 ## 📊 Visual Outputs
+Data sample grid
 ![Data sample grid](.gitimages/sample_grid.png)
+Data embedding
 ![Data embedding](.gitimages/data_embedding.PNG)
-![ResNet18 model graph](.gitimages/model_graph.PNG)
 
+Epoch loss curves
 ![Epoch loss curves](.gitimages/epoch_loss_curves.PNG)
+Epoch accuracy curves
 ![Epoch accuracy curves](.gitimages/epoch_accuracy_curves.PNG)
 
-![Precision-Recall curve](.gitimages/pr_curves.PNG)
+Precision-Recall curves
+![Precision-Recall curves](.gitimages/pr_curves.PNG)
 
 ## 🚀 How to Use
 
