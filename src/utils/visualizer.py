@@ -28,10 +28,11 @@ def add_embedding(dataloader, writer, n=128, classes=dataset_utils.classes, tag=
         labels = torch.from_numpy(labels)
     images = dataset_utils.normalize_images(images)
     features = images.reshape(n, -1)   # flatten
-    class_labels = [classes[l] for l in labels]    
+    class_labels = [classes[int(l)] for l in labels]
+    label_img = dataset_utils.get_label_img(images.to('cpu'))
     writer.add_embedding(features.detach().to('cpu'),
                     metadata=class_labels,
-                    label_img=dataset_utils.get_label_img(images.to('cpu')),
+                    label_img=label_img,
                     tag=tag)
 
 def add_scalar(writer, tag, value, step=None):

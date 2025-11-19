@@ -24,9 +24,14 @@ def get_label_img(images):  # -> [N,C,H,W] for TensorBoard
     elif images.ndim == 4:
         if images.shape[1] not in [1,3]:    # [N,H,W,C] -> [N,C,H,W]
             images = images.permute(0,3,1,2)
-        return images 
+        return images
 
 def normalize_images(images):   # will be needed beyond torchvision datasets
+    if isinstance(images, np.ndarray):
+        images = torch.from_numpy(images)
+    images = images.float()
+    if images.max() > 1.0:
+        images /= 255.0
     return images
     # if images.dtype == torch.uint8:
     #     return images.float() / 255.0
