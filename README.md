@@ -136,4 +136,4 @@ During this project, I gained hands-on experience with:
 
 ## 📬 Contacts
 - GitHub: [v0lia](https://github.com/v0lia)
-- Email: [vitvolia@gmail.com](vitvolia@gmail.com)
+- Email: <vitvolia@gmail.com>
