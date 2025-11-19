@@ -31,21 +31,7 @@ Current reference pipeline: training convolutional neural networks on the Fashio
 - **Dataset:** Fashion-MNIST
 - **Tools:** torch, torchvision, TensorBoard
 
-## 📊 Visual Outputs
-![Data sample grid](.gitimages/sample_grid.png)  
-*Data sample grid*
-
-![Data embedding](.gitimages/data_embedding.PNG)  
-*Data embedding*
-
-![Epoch loss curves](.gitimages/epoch_loss_curves.PNG)  
-*Epoch loss curves*
-
-![Epoch accuracy curves](.gitimages/epoch_accuracy_curves.PNG)  
-*Epoch accuracy curves*
-
-![Precision-Recall curves](.gitimages/pr_curves.PNG)  
-*Precision-Recall curves*
+## [📊 Visual Outputs](#visuals)
 
 ## 🚀 How to Use
 
@@ -144,3 +130,19 @@ During this project, I gained hands-on experience with:
 ## 📡 Contacts
 - GitHub: [v0lia](https://github.com/v0lia)
 - Email: <vitvolia@gmail.com>
+
+## Visuals
+![Data sample grid](.gitimages/sample_grid.png)  
+*Data sample grid*
+
+![Data embedding](.gitimages/data_embedding.PNG)  
+*Data embedding*
+
+![Epoch loss curves](.gitimages/epoch_loss_curves.PNG)  
+*Epoch loss curves*
+
+![Epoch accuracy curves](.gitimages/epoch_accuracy_curves.PNG)  
+*Epoch accuracy curves*
+
+![Precision-Recall curves](.gitimages/pr_curves.PNG)  
+*Precision-Recall curves*
